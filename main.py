@@ -23,3 +23,5 @@ class buying(mesa.Model):
         self.user = User()
         self.company = Company()
         self.stock = Stock()
+
+model = buying
