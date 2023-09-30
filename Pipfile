@@ -4,5 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+sage = "*"
+mesa = "*"
+simpy = "*"
 
 [dev-packages]
