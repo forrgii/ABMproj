@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 sage = "*"
-mesa = "*"
 simpy = "*"
+mesa = "*"
 
 [dev-packages]
