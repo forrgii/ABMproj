@@ -99,6 +99,6 @@ class buying(mesa.Model, User, Company):
 ############# test #######################
 
 a=Company.Stock(13)
-b=Company(650, a, 13)
+b=Company("tink", 1, 650, a, 13)
 print(*b.getInf())
 
