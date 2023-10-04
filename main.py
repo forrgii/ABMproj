@@ -22,13 +22,13 @@ def second(p):
 
 class Company(mesa.Agent):
     class Stock():
-        def __init__(self, cost, name, id):
+        def __init__(self, cost):
             self.cost = cost
-            self.name = name
-            self.id = id
 
-    def __init__(self, capital, Stock, stock_count):
+    def __init__(self, name, id, capital, Stock, stock_count):
         
+        self.name = name
+        self.id = id
         self.capital = capital
         self.stock_cost = Stock.cost
         self.stock_count = stock_count
